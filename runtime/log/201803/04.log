@@ -1,0 +1,249 @@
+---------------------------------------------------------------
+[ 2018-03-04T15:16:03+08:00 ] 0.0.0.0 GET /junyue/public/index.php/index/index.html
+[ info ] localhost/junyue/public/index.php/index/index.html [运行时间：0.066896s][吞吐率：14.95req/s] [内存消耗：1,365.78kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudySetup\PHPTutorial\WWW\junyue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'optimizelyEndUserId=oeu1506240450322r0.29344703539224004; _ga=GA1.1.953514368.1506240451; pgv_pvi=5888077824',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-04T15:16:03+08:00 ] 0.0.0.0 GET /junyue/public/index.php/login/index.html
+[ info ] localhost/junyue/public/index.php/login/index.html [运行时间：0.114978s][吞吐率：8.70req/s] [内存消耗：1,514.11kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudySetup\PHPTutorial\WWW\junyue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'optimizelyEndUserId=oeu1506240450322r0.29344703539224004; _ga=GA1.1.953514368.1506240451; pgv_pvi=5888077824; PHPSESSID=8bc0bdu6m7r814vjhgq3vd9h25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\controller\Login->index[ D:\phpStudySetup\PHPTutorial\WWW\junyue\app\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudySetup\PHPTutorial\WWW\junyue\public/../app/view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-04T15:16:06+08:00 ] 0.0.0.0 POST /junyue/public/index.php/login/login.html
+[ info ] localhost/junyue/public/index.php/login/login.html [运行时间：0.097699s][吞吐率：10.24req/s] [内存消耗：2,358.31kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudySetup\PHPTutorial\WWW\junyue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/junyue/public/index.php/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'optimizelyEndUserId=oeu1506240450322r0.29344703539224004; _ga=GA1.1.953514368.1506240451; pgv_pvi=5888077824; PHPSESSID=8bc0bdu6m7r814vjhgq3vd9h25',
+)
+[ info ] [ PARAM ] array (
+  'do_login' => 'true',
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ RUN ] app\controller\Login->login[ D:\phpStudySetup\PHPTutorial\WWW\junyue\app\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001912s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.011940s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000702s ]
+---------------------------------------------------------------
+[ 2018-03-04T15:16:06+08:00 ] 0.0.0.0 GET /junyue/public/index.php/index/index.html
+[ info ] localhost/junyue/public/index.php/index/index.html [运行时间：0.136699s][吞吐率：7.32req/s] [内存消耗：2,533.63kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudySetup\PHPTutorial\WWW\junyue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/junyue/public/index.php/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'optimizelyEndUserId=oeu1506240450322r0.29344703539224004; _ga=GA1.1.953514368.1506240451; pgv_pvi=5888077824; PHPSESSID=8bc0bdu6m7r814vjhgq3vd9h25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\Index->index[ D:\phpStudySetup\PHPTutorial\WWW\junyue\app\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudySetup\PHPTutorial\WWW\junyue\public/../app/view\index\index.html [ array (
+  0 => 'my_info',
+  1 => '_menuList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001471s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_menu` [ RunTime:0.011293s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` = 0 [ RunTime:0.000937s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` > 0 [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.010952s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000872s ]
+---------------------------------------------------------------
+[ 2018-03-04T15:16:13+08:00 ] 0.0.0.0 GET /junyue/public/index.php/index/index.html
+[ info ] localhost/junyue/public/index.php/index/index.html [运行时间：0.085542s][吞吐率：11.69req/s] [内存消耗：2,533.63kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudySetup\PHPTutorial\WWW\junyue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/junyue/public/index.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'optimizelyEndUserId=oeu1506240450322r0.29344703539224004; _ga=GA1.1.953514368.1506240451; pgv_pvi=5888077824; PHPSESSID=8bc0bdu6m7r814vjhgq3vd9h25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\Index->index[ D:\phpStudySetup\PHPTutorial\WWW\junyue\app\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudySetup\PHPTutorial\WWW\junyue\public/../app/view\index\index.html [ array (
+  0 => 'my_info',
+  1 => '_menuList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001618s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_menu` [ RunTime:0.011897s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` = 0 [ RunTime:0.000791s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` > 0 [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.011192s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000668s ]
+---------------------------------------------------------------
+[ 2018-03-04T15:16:16+08:00 ] 0.0.0.0 GET /junyue/public/index.php/instorage/index.html
+[ info ] localhost/junyue/public/index.php/instorage/index.html [运行时间：0.176186s][吞吐率：5.68req/s] [内存消耗：2,947.55kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudySetup\PHPTutorial\WWW\junyue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'instorage',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/junyue/public/index.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'optimizelyEndUserId=oeu1506240450322r0.29344703539224004; _ga=GA1.1.953514368.1506240451; pgv_pvi=5888077824; PHPSESSID=8bc0bdu6m7r814vjhgq3vd9h25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\Instorage->index[ D:\phpStudySetup\PHPTutorial\WWW\junyue\app\controller\Instorage.php ]
+[ info ] [ VIEW ] D:\phpStudySetup\PHPTutorial\WWW\junyue\public/../app/view\instorage\index.html [ array (
+  0 => 'my_info',
+  1 => '_menuList',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001610s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_menu` [ RunTime:0.011644s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` = 0 [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` > 0 [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.011123s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_order` [ RunTime:0.011035s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `w_order` WHERE  `state` = 1 LIMIT 1 [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SELECT * FROM `w_order` WHERE  `state` = 1 LIMIT 0,10 [ RunTime:0.000751s ]

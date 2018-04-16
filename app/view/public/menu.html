@@ -1,0 +1,198 @@
+<?php
+$request= \think\Request::instance();
+
+?>
+				<ul id="main-menu" class="main-menu">
+
+					{volist name='_menuList.father' id='vo'}
+						<li>
+							<a href="{:url($vo->controller.'/'.$vo->action)}">
+								<i class="{$vo.ico}"></i>
+								<span class="title">{$vo.name}</span>
+							</a>
+							{if condition="$vo.controller eq '' "}
+							<ul>
+							{volist name='_menuList.child' id='vv'}
+								{if condition="$vv.pid eq $vo.id"}
+									<li class=" {$vv->controller}-{$vv->action}">
+										<a href="{:url($vv->controller.'/'.$vv->action)}"><span class="title">{$vv.name}</span></a>
+									</li>
+								{else /}
+								{/if}
+							{/volist}
+							</ul>
+							{/if}
+						</li>
+					{/volist}
+			
+					<!-- <li>
+			            <a href="#" class="menu-dropdown">
+			                <i class="menu-icon fa fa-user"></i>
+			                <span class="menu-text">系统设置</span>
+			                <i class="menu-expand"></i>
+			            </a>
+			            <ul class="submenu">
+			                <li>
+			                    <a href="http://localhost/junyue/Public/index.php/admin/lst.html">
+			                                    <span class="menu-text">
+			                                        员工管理                                    </span>
+			                        <i class="menu-expand"></i>
+			                    </a>
+			                </li>
+			            </ul>
+			        </li>
+
+			        <li>
+			            <a href="#" class="menu-dropdown">
+			                <i class="menu-icon fa fa-file"></i>
+			                <span class="menu-text">仓库作业</span>
+			                <i class="menu-expand"></i>
+			            </a>
+			            <ul class="submenu">
+			                <li>
+			                    <a href="{:url('Instorage/index')}">
+			                                    <span class="menu-text">
+			                                        入库管理                                    </span>
+			                        <i class="menu-expand"></i>
+			                    </a>
+			                </li>
+			            </ul>
+			            <ul class="submenu">
+			                <li>
+			                    <a href="{:url('Outstorage/index')}">
+			                                    <span class="menu-text">
+			                                        出库管理                                    </span>
+			                        <i class="menu-expand"></i>
+			                    </a>
+			                </li>
+			            </ul>
+			            <ul class="submenu">
+			                <li>
+			                    <a href="{:url('Product/lists')}">
+			                                    <span class="menu-text">
+			                                        查询管理                                    </span>
+			                        <i class="menu-expand"></i>
+			                    </a>
+			                </li>
+			            </ul>
+			        </li>
+
+			        <li>
+			            <a href="#" class="menu-dropdown">
+			                <i class="menu-icon fa fa-file-text"></i>
+			                <span class="menu-text">基本设置</span>
+			                <i class="menu-expand"></i>
+			            </a>
+			            <ul class="submenu">
+			                <li>
+			                    <a href="{:url('Storage/index')}">
+			                                    <span class="menu-text">
+			                                        仓库管理                                    </span>
+			                        <i class="menu-expand"></i>
+			                    </a>
+			                </li>
+			            </ul>
+			            <ul class="submenu">
+			                <li>
+			                    <a href="{:url('Location/index')}">
+			                                    <span class="menu-text">
+			                                        库位管理                                    </span>
+			                        <i class="menu-expand"></i>
+			                    </a>
+			                </li>
+			            </ul>
+			            <ul class="submenu">
+			                <li>
+			                    <a href="{:url('Supplier/index')}">
+			                                    <span class="menu-text">
+			                                        供应商管理                                    </span>
+			                        <i class="menu-expand"></i>
+			                    </a>
+			                </li>
+			            </ul>
+			            <ul class="submenu">
+			                <li>
+			                    <a href="{:url('Customer/index')}">
+			                                    <span class="menu-text">
+			                                        客户管理                                    </span>
+			                        <i class="menu-expand"></i>
+			                    </a>
+			                </li>
+			            </ul>
+			            <ul class="submenu">
+			                <li>
+			                    <a href="{:url('Unit/index')}">
+			                                    <span class="menu-text">
+			                                        计量单位                                    </span>
+			                        <i class="menu-expand"></i>
+			                    </a>
+			                </li>
+			            </ul>
+			            <ul class="submenu">
+			                <li>
+			                    <a href="{:url('Category/index')}">
+			                                    <span class="menu-text">
+			                                        物料类别                                    </span>
+			                        <i class="menu-expand"></i>
+			                    </a>
+			                </li>
+			            </ul>
+			            <ul class="submenu">
+			                <li>
+			                    <a href="{:url('Product/index')}">
+			                                    <span class="menu-text">
+			                                        物料管理                                    </span>
+			                        <i class="menu-expand"></i>
+			                    </a>
+			                </li>
+			            </ul>
+			        </li> -->
+
+			        <!-- <li>
+			            <a href="#" class="menu-dropdown">
+			                <i class="menu-icon fa fa-chain"></i>
+			                <span class="menu-text">友情连接</span>
+			                <i class="menu-expand"></i>
+			            </a>
+			            <ul class="submenu">
+			                <li>
+			                    <a href="{:url('link/lst')}">
+			                                    <span class="menu-text">
+			                                        链接列表                                    </span>
+			                        <i class="menu-expand"></i>
+			                    </a>
+			                </li>
+			            </ul>
+			        </li>
+
+			        <li>
+			            <a href="#" class="menu-dropdown">
+			                <i class="menu-icon fa fa-gear"></i>
+			                <span class="menu-text">系统</span>
+			                <i class="menu-expand"></i>
+			            </a>
+			            <ul class="submenu">
+			                <li>
+			                    <a href="{:url('Conf/conf')}">
+			                                    <span class="menu-text">
+			                                        配置项                               </span>
+			                        <i class="menu-expand"></i>
+			                    </a>
+			                </li>
+			                <li>
+			                    <a href="{:url('Conf/lst')}">
+			                                    <span class="menu-text">
+			                                        配置列表                                   </span>
+			                        <i class="menu-expand"></i>
+			                    </a>
+			                </li>
+			            </ul>
+			        </li> -->
+				</ul>
+
+<script>
+	var className = '{$request->controller()}-{$request->action()}'
+	$("."+className).addClass('active');
+	$("."+className).parent().parent().addClass('active open');
+	$("."+className).parent().show();
+</script>

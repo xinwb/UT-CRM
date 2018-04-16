@@ -1,0 +1,16 @@
+1.域名指向 public
+2.导wxgn.sql
+3.修改 app\database.php
+
+后台：域名+/login/index.html
+
+账号 admin  密码 admin
+
+现有源码默认是IIS环境下的PHP
+
+如果你是linux 使用非IIS部署，请用.htacess文件替换 根目录/public 下的web.config
+和 根目录下的web.config 两个文件
+
+
+源码测试无错，如果不能运行，基本是伪静态问题，请耐心调试
+

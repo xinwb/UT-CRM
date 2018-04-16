@@ -1,0 +1,101 @@
+	<!-- Imported scripts on this page -->
+<!-- 	<script src="/static/js/jquery-validate/jquery.validate.min.js"></script>
+	<link rel="stylesheet" href="/static/css/xenon-forms.css"> -->
+
+
+
+{layout name="layout" /}
+
+    <!-- Imported scripts on this page -->
+    <script src="__JUNYUE__/static/js/rwd-table/js/rwd-table.min.js"></script>
+    <script src="__JUNYUE__/static/js/datatables/js/jquery.dataTables.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="/static/css/xenon-forms.css"> -->
+
+    <!-- Imported scripts on this page -->
+    <script src="__JUNYUE__/static/js/datatables/dataTables.bootstrap.js"></script>
+    <script src="__JUNYUE__/static/js/datatables/yadcf/jquery.dataTables.yadcf.js"></script>
+    <script src="__JUNYUE__/static/js/datatables/tabletools/dataTables.tableTools.min.js"></script>
+
+<div class="page-title">  
+    
+    <div class="breadcrumb-env pull-left">
+        
+        <ol class="breadcrumb bc-1">
+            <li>
+                <a href="{:url('Index/index')}"><i class="fa-home"></i>首页</a>
+            </li>
+            <li>
+                <a href="">员工管理</a>
+             </li>
+            <li class="active">
+                <strong>修改</strong>
+            </li>
+        </ol>
+                    
+    </div>       
+</div>
+
+<form class="validate edit_from" role="form" action="{:url('user/edit')}" method="post">
+	<input type="hidden" name="id" value="{$user.id}">
+	<div class="row">
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-3">
+			<div class="form-group">
+				<label for="username" class="control-label">登录账号</label>
+				<input type="text" class="form-control" name="username" placeholder="登录账号" value="{$user.username}" id="username" required="" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')">
+			</div>	
+		</div>
+		<div class="col-md-3">
+			<div class="form-group">
+				<label for="field-2" class="control-label">密码</label>
+				<input type="text" class="form-control" name="password" placeholder="密码" value="" id="password" required="">
+			</div>	
+		</div>
+		<div class="col-md-3">
+		</div>
+	</div>
+
+	<div class="row">	
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-3">
+			<div class="form-group">
+				<label for="field-2" class="control-label">联系电话</label>
+				
+				<input type="text" class="form-control" name="phone" placeholder="联系电话" value="{$user.phone}" id="phone" required="" onkeyup="this.value=this.value.replace(/\D/g,'')">
+			</div>	
+		</div>
+		<div class="col-md-3">
+			<div class="form-group">
+				<label for="field-2" class="control-label">姓名</label>
+				
+				<input type="text" class="form-control" name="truename" placeholder="姓名" value="{$user.truename}" id="truename" required="">
+			</div>	
+		</div>
+		<div class="col-md-3">
+		</div>
+	</div>
+
+	<div class="row">	
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+				<label for="field-2" class="control-label">邮箱</label>
+				
+				<input type="text" class="form-control" name="eamil" placeholder="邮箱" value="{$user.eamil}" id="eamil" required="">
+			</div>	
+		</div>
+		<div class="col-md-3">
+		</div>
+	</div>
+
+	<div class="form-group">
+        <div class="col-sm-offset-3 col-sm-6">
+            <button type="submit" class="btn btn-default btn-block">保存信息</button>
+        </div>
+    </div>
+
+</form>

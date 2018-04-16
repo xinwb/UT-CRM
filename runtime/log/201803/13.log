@@ -1,0 +1,913 @@
+---------------------------------------------------------------
+[ 2018-03-13T10:29:46+08:00 ] 127.0.0.1 GET /jxc/
+[ info ] 127.0.0.1/jxc/ [运行时间：0.035367s][吞吐率：28.27req/s] [内存消耗：1,804.56kb] [文件加载：36]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => '',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'accept-language' => 'zh-cn',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-13T10:30:10+08:00 ] 127.0.0.1 GET /jxc/public/index.php
+[ info ] 127.0.0.1/jxc/public/index.php [运行时间：0.019562s][吞吐率：51.12req/s] [内存消耗：1,804.99kb] [文件加载：36]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => '',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'accept-language' => 'zh-cn',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-13T10:30:10+08:00 ] 127.0.0.1 GET /jxc/public/index.php/login/index.html
+[ info ] 127.0.0.1/jxc/public/index.php/login/index.html [运行时间：0.018029s][吞吐率：55.47req/s] [内存消耗：1,998.16kb] [文件加载：38]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'accept-language' => 'zh-cn',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\controller\Login->index[ /Applications/XAMPP/xamppfiles/htdocs/jxc/app/controller/Login.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/jxc/public/../app/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-13T10:30:10+08:00 ] 127.0.0.1 GET /jxc/public/index.php
+[ info ] 127.0.0.1/jxc/public/index.php [运行时间：0.021253s][吞吐率：47.05req/s] [内存消耗：1,804.99kb] [文件加载：36]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => '',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'accept-language' => 'zh-cn',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-13T10:30:11+08:00 ] 127.0.0.1 GET /jxc/public/index.php/login/index.html
+[ info ] 127.0.0.1/jxc/public/index.php/login/index.html [运行时间：0.017241s][吞吐率：58.00req/s] [内存消耗：1,794.77kb] [文件加载：36]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'accept-language' => 'zh-cn',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\controller\Login->index[ /Applications/XAMPP/xamppfiles/htdocs/jxc/app/controller/Login.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/jxc/public/../app/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-13T10:30:43+08:00 ] 127.0.0.1 POST /jxc/public/index.php/login/login.html
+[ info ] 127.0.0.1/jxc/public/index.php/login/login.html [运行时间：0.045670s][吞吐率：21.90req/s] [内存消耗：3,128.06kb] [文件加载：43]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://127.0.0.1',
+  'content-length' => '43',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'referer' => 'http://127.0.0.1/jxc/public/index.php/login/index.html',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+)
+[ info ] [ PARAM ] array (
+  'do_login' => 'true',
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ RUN ] app\controller\Login->login[ /Applications/XAMPP/xamppfiles/htdocs/jxc/app/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000632s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.003874s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000881s ]
+---------------------------------------------------------------
+[ 2018-03-13T10:30:44+08:00 ] 127.0.0.1 GET /jxc/public/index.php/index/index.html
+[ info ] 127.0.0.1/jxc/public/index.php/index/index.html [运行时间：0.040274s][吞吐率：24.83req/s] [内存消耗：3,550.42kb] [文件加载：49]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'referer' => 'http://127.0.0.1/jxc/public/index.php/login/index.html',
+  'dnt' => '1',
+  'accept-language' => 'zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/jxc/app/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/jxc/public/../app/view/index/index.html [ array (
+  0 => 'my_info',
+  1 => '_menuList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000583s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_menu` [ RunTime:0.003057s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` = 0 [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` > 0 [ RunTime:0.001073s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.002899s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000444s ]
+---------------------------------------------------------------
+[ 2018-03-13T10:33:05+08:00 ] 127.0.0.1 GET /jxc/public/index.php/index/index.html
+[ info ] 127.0.0.1/jxc/public/index.php/index/index.html [运行时间：0.044018s][吞吐率：22.72req/s] [内存消耗：3,338.86kb] [文件加载：47]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'referer' => 'http://127.0.0.1/jxc/public/index.php/login/index.html',
+  'dnt' => '1',
+  'accept-language' => 'zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/jxc/app/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/jxc/public/../app/view/index/index.html [ array (
+  0 => 'my_info',
+  1 => '_menuList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000666s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_menu` [ RunTime:0.003523s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` = 0 [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` > 0 [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.002439s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[ 2018-03-13T10:33:36+08:00 ] 127.0.0.1 GET /jxc/public/index.php/index/index.html
+[ info ] 127.0.0.1/jxc/public/index.php/index/index.html [运行时间：0.034542s][吞吐率：28.95req/s] [内存消耗：3,338.88kb] [文件加载：47]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'referer' => 'http://127.0.0.1/jxc/public/index.php/login/index.html',
+  'dnt' => '1',
+  'accept-language' => 'zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/jxc/app/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/jxc/public/../app/view/index/index.html [ array (
+  0 => 'my_info',
+  1 => '_menuList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000579s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_menu` [ RunTime:0.002438s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` = 0 [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` > 0 [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.002275s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[ 2018-03-13T10:36:16+08:00 ] 127.0.0.1 GET /jxc/public/index.php/index/index.html
+[ info ] 127.0.0.1/jxc/public/index.php/index/index.html [运行时间：0.052891s][吞吐率：18.91req/s] [内存消耗：3,550.38kb] [文件加载：49]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'referer' => 'http://127.0.0.1/jxc/public/index.php/login/index.html',
+  'dnt' => '1',
+  'accept-language' => 'zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/jxc/app/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/jxc/public/../app/view/index/index.html [ array (
+  0 => 'my_info',
+  1 => '_menuList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000752s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_menu` [ RunTime:0.002806s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` = 0 [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` > 0 [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.002796s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000430s ]
+---------------------------------------------------------------
+[ 2018-03-13T10:37:57+08:00 ] 127.0.0.1 GET /jxc/public/index.php/index/index.html
+[ info ] 127.0.0.1/jxc/public/index.php/index/index.html [运行时间：0.033218s][吞吐率：30.10req/s] [内存消耗：3,339.24kb] [文件加载：47]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'referer' => 'http://127.0.0.1/jxc/public/index.php/login/index.html',
+  'dnt' => '1',
+  'accept-language' => 'zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/jxc/app/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/jxc/public/../app/view/index/index.html [ array (
+  0 => 'my_info',
+  1 => '_menuList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000573s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_menu` [ RunTime:0.003338s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` = 0 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` > 0 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.002314s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000405s ]
+---------------------------------------------------------------
+[ 2018-03-13T10:38:14+08:00 ] 127.0.0.1 GET /jxc/public/index.php/index/index.html
+[ info ] 127.0.0.1/jxc/public/index.php/index/index.html [运行时间：0.044959s][吞吐率：22.24req/s] [内存消耗：3,338.93kb] [文件加载：47]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'referer' => 'http://127.0.0.1/jxc/public/index.php/login/index.html',
+  'dnt' => '1',
+  'accept-language' => 'zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/jxc/app/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/jxc/public/../app/view/index/index.html [ array (
+  0 => 'my_info',
+  1 => '_menuList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000690s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_menu` [ RunTime:0.003098s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` = 0 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` > 0 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.002382s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000430s ]
+---------------------------------------------------------------
+[ 2018-03-13T10:38:51+08:00 ] 127.0.0.1 GET /jxc/public/index.php/index/index.html
+[ info ] 127.0.0.1/jxc/public/index.php/index/index.html [运行时间：0.037035s][吞吐率：27.00req/s] [内存消耗：3,338.99kb] [文件加载：47]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'referer' => 'http://127.0.0.1/jxc/public/index.php/login/index.html',
+  'dnt' => '1',
+  'accept-language' => 'zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/jxc/app/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/jxc/public/../app/view/index/index.html [ array (
+  0 => 'my_info',
+  1 => '_menuList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000710s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_menu` [ RunTime:0.003836s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` = 0 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` > 0 [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.002253s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000423s ]
+---------------------------------------------------------------
+[ 2018-03-13T11:02:57+08:00 ] 127.0.0.1 GET /jxc/
+[ info ] 127.0.0.1/jxc/ [运行时间：0.062729s][吞吐率：15.94req/s] [内存消耗：3,549.63kb] [文件加载：49]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => '',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'accept-language' => 'zh-cn',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/jxc/app/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/jxc/app/view/index/index.html [ array (
+  0 => 'my_info',
+  1 => '_menuList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001628s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_menu` [ RunTime:0.003209s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` = 0 [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` > 0 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.002632s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001014s ]
+---------------------------------------------------------------
+[ 2018-03-13T11:03:12+08:00 ] 127.0.0.1 GET /jxc/public/index.php
+[ info ] 127.0.0.1/jxc/public/index.php [运行时间：0.038245s][吞吐率：26.15req/s] [内存消耗：3,550.37kb] [文件加载：49]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => '',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'accept-language' => 'zh-cn',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/jxc/app/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/jxc/public/../app/view/index/index.html [ array (
+  0 => 'my_info',
+  1 => '_menuList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000686s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_menu` [ RunTime:0.003042s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` = 0 [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` > 0 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.002234s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[ 2018-03-13T11:03:15+08:00 ] 127.0.0.1 GET /jxc/public/index.php
+[ info ] 127.0.0.1/jxc/public/index.php [运行时间：0.029883s][吞吐率：33.46req/s] [内存消耗：3,338.91kb] [文件加载：47]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => '',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'accept-language' => 'zh-cn',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/jxc/app/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/jxc/public/../app/view/index/index.html [ array (
+  0 => 'my_info',
+  1 => '_menuList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000584s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_menu` [ RunTime:0.002464s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` = 0 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` > 0 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.002315s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000545s ]
+---------------------------------------------------------------
+[ 2018-03-13T11:03:27+08:00 ] 127.0.0.1 GET /jxc/public/index.php/user/index.html
+[ info ] 127.0.0.1/jxc/public/index.php/user/index.html [运行时间：0.049562s][吞吐率：20.18req/s] [内存消耗：3,821.35kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'referer' => 'http://127.0.0.1/jxc/public/index.php',
+  'dnt' => '1',
+  'accept-language' => 'zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\User->index[ /Applications/XAMPP/xamppfiles/htdocs/jxc/app/controller/User.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/jxc/public/../app/view/user/index.html [ array (
+  0 => 'my_info',
+  1 => '_menuList',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000702s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_menu` [ RunTime:0.002498s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` = 0 [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` > 0 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.002763s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `w_user` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `status` = 0 LIMIT 0,10 [ RunTime:0.000436s ]
+---------------------------------------------------------------
+[ 2018-03-13T11:03:29+08:00 ] 127.0.0.1 GET /jxc/public/index.php/
+[ info ] 127.0.0.1/jxc/public/index.php/ [运行时间：0.032661s][吞吐率：30.62req/s] [内存消耗：3,339.09kb] [文件加载：47]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => '',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'referer' => 'http://127.0.0.1/jxc/public/index.php/user/index.html',
+  'dnt' => '1',
+  'accept-language' => 'zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/jxc/app/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/jxc/public/../app/view/index/index.html [ array (
+  0 => 'my_info',
+  1 => '_menuList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000538s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_menu` [ RunTime:0.002429s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` = 0 [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` > 0 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.002180s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2018-03-13T11:06:17+08:00 ] 127.0.0.1 GET /jxc/public/index.php/
+[ info ] 127.0.0.1/jxc/public/index.php/ [运行时间：0.047205s][吞吐率：21.18req/s] [内存消耗：3,550.48kb] [文件加载：49]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => '',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'referer' => 'http://127.0.0.1/jxc/public/index.php/user/index.html',
+  'dnt' => '1',
+  'accept-language' => 'zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/jxc/app/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/jxc/public/../app/view/index/index.html [ array (
+  0 => 'my_info',
+  1 => '_menuList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000559s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_menu` [ RunTime:0.002771s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` = 0 [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` > 0 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.002727s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000456s ]
+---------------------------------------------------------------
+[ 2018-03-13T11:07:58+08:00 ] 127.0.0.1 GET /jxc/public/index.php/
+[ info ] 127.0.0.1/jxc/public/index.php/ [运行时间：0.048772s][吞吐率：20.50req/s] [内存消耗：3,550.64kb] [文件加载：49]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => '',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'referer' => 'http://127.0.0.1/jxc/public/index.php/user/index.html',
+  'dnt' => '1',
+  'accept-language' => 'zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/jxc/app/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/jxc/public/../app/view/index/index.html [ array (
+  0 => 'my_info',
+  1 => '_menuList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000538s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_menu` [ RunTime:0.002609s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` = 0 [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` > 0 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.003199s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000460s ]
+---------------------------------------------------------------
+[ 2018-03-13T11:16:41+08:00 ] 127.0.0.1 GET /jxc/public/index.php/
+[ info ] 127.0.0.1/jxc/public/index.php/ [运行时间：0.038576s][吞吐率：25.92req/s] [内存消耗：3,339.07kb] [文件加载：47]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/jxc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => '',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=3fjpcujktu13uehe99jcseb7h6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6',
+  'referer' => 'http://127.0.0.1/jxc/public/index.php/user/index.html',
+  'dnt' => '1',
+  'accept-language' => 'zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/jxc/app/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/jxc/public/../app/view/index/index.html [ array (
+  0 => 'my_info',
+  1 => '_menuList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000678s ] mysql:host=127.0.0.1;port=3306;dbname=wxgn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_menu` [ RunTime:0.004340s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` = 0 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT * FROM `w_menu` WHERE  `status` = 0  AND `level` > 0 [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `w_user` [ RunTime:0.002903s ]
+[ sql ] [ SQL ] SELECT * FROM `w_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000510s ]

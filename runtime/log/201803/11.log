@@ -1,0 +1,98 @@
+---------------------------------------------------------------
+[ 2018-03-11T19:59:58+08:00 ] 115.236.84.172 GET /
+[ info ] test.utbeta.com/ [运行时间：0.076172s][吞吐率：13.13req/s] [内存消耗：1,094.00kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\jxc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => '',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.22 Safari/537.36',
+  'host' => 'test.utbeta.com',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-11T19:59:58+08:00 ] 115.236.84.172 GET /login/index.html
+[ info ] test.utbeta.com/login/index.html [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,082.12kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\jxc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/login/index.html',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.22 Safari/537.36',
+  'host' => 'test.utbeta.com',
+  'cookie' => 'PHPSESSID=khf47ldne2021prdantiblmt13',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\controller\Login->index[ D:\phpStudy\WWW\jxc\app\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\jxc\public/../app/view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-11T19:59:59+08:00 ] 115.236.84.172 GET /static/css/fonts/fontawesome/css/font-awesome.min.css
+[ info ] test.utbeta.com/static/css/fonts/fontawesome/css/font-awesome.min.css [运行时间：0.052734s][吞吐率：18.96req/s] [内存消耗：826.81kb] [文件加载：29]
+[ info ] [ LANG ] D:\phpStudy\WWW\jxc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'static',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/static/css/fonts/fontawesome/css/font-awesome.min.css',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.22 Safari/537.36',
+  'referer' => 'http://test.utbeta.com/login/index.html',
+  'host' => 'test.utbeta.com',
+  'cookie' => 'PHPSESSID=khf47ldne2021prdantiblmt13; safedog-flow-item=',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/css,*/*;q=0.1',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'fonts' => 'fontawesome',
+  'css' => 'font-awesome.min.css',
+)
+[ info ] [ LOG ] INIT File

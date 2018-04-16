@@ -1,0 +1,110 @@
+{layout name="layout" /}
+
+    <!-- Imported scripts on this page -->
+    <script src="__JUNYUE__/static/js/rwd-table/js/rwd-table.min.js"></script>
+    <script src="__JUNYUE__/static/js/datatables/js/jquery.dataTables.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="/static/css/xenon-forms.css"> -->
+
+    <!-- Imported scripts on this page -->
+    <script src="__JUNYUE__/static/js/datatables/dataTables.bootstrap.js"></script>
+    <script src="__JUNYUE__/static/js/datatables/yadcf/jquery.dataTables.yadcf.js"></script>
+    <script src="__JUNYUE__/static/js/datatables/tabletools/dataTables.tableTools.min.js"></script>
+
+<div class="page-title">  
+    
+    <div class="breadcrumb-env pull-left">
+        
+        <ol class="breadcrumb bc-1">
+            <li>
+                <a href="{:url('Index/index')}"><i class="fa-home"></i>首页</a>
+            </li>
+            <li>
+                <a href="">员工管理</a>
+             </li>
+            <li class="active">
+                <strong>添加</strong>
+            </li>
+        </ol>
+                    
+    </div>       
+</div>
+
+<!-- <div class="page-body">
+
+<div class="row">
+<div class="col-lg-12 col-sm-12 col-xs-12">
+<div class="widget">
+
+<div class="widget-body">
+<div id="horizontal-form"> -->
+
+<form class="validate add-form" role="form" action="{:url('User/create')}" method="post">
+
+	<div class="row">
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-3">
+			<div class="form-group">
+				<label for="field-2" class="control-label">登录账号</label>
+
+				<input type="text" class="form-control" name="username" placeholder="登录账号" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')">
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="form-group">
+				<label for="field-2" class="control-label">密码</label>
+
+				<input type="text" class="form-control" name="password" placeholder="密码" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')">
+			</div>
+		</div>
+		<div class="col-md-3">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-3">
+			<div class="form-group">
+				<label for="field-2" class="control-label">电话</label>
+
+				<input type="text" class="form-control" name="phone" placeholder="电话" onkeyup="this.value=this.value.replace(/\D/g,'')">
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="form-group">
+				<label for="field-2" class="control-label">姓名</label>
+
+				<input type="text" class="form-control" name="truename" placeholder="姓名" >
+			</div>
+		</div>
+		<div class="col-md-3">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+				<label for="field-2" class="control-label">邮箱</label>
+
+				<input type="text" class="form-control" name="eamil" placeholder="邮箱" >
+			</div>
+		</div>
+		<div class="col-md-3">
+		</div>
+	</div>
+
+	<div class="form-group">
+        <div class="col-sm-offset-3 col-sm-6">
+            <button type="submit" class="btn btn-default btn-block">保存信息</button>
+        </div>
+    </div>
+
+</form>
+<!-- </div>
+</div>
+
+</div></div></div></div> -->
